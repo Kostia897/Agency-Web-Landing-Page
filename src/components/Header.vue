@@ -1,14 +1,14 @@
 <template>
     <header class="header">
         <div class="header__logo">
-            <h1>LOGO</h1>
+            <p>LOGO</p>
         </div>
 
         <nav class="header__nav">
-            <a href="#home" class="header__nav__link header__nav__link--home">Home</a>
-            <a href="#about"class="header__nav__link">About us</a>
-            <a href="#services" class="header__nav__link">Services</a>
-            <a href="#blog" class="header__nav__link">Blog</a>
+            <a href="#home" class="header__nav-link header__nav-link--home">Home</a>
+            <a href="#about"class="header__nav-link">About us</a>
+            <a href="#services" class="header__nav-link">Services</a>
+            <a href="#blog" class="header__nav-link">Blog</a>
         </nav>
 
         <button class="header__btn">Contact us</button>
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     background-color: #ffffff;
     border-bottom: 1px solid #C4C4C4;
     gap: 50px;
@@ -37,31 +37,33 @@
     width: 50%;
 }
 
-.header__logo h1 {
+.header__logo p {
     color: #1090CB;
+    font-weight: 700;
+    font-size: 29px;
 }
 
 .header__nav {
     display: flex;
     gap: 50px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__nav__link {
+.header__nav-link {
     text-decoration: none;
     color: #000000;
     position: relative;
-    font-weight: 350;
+    font-weight: 400;
+    font-size: 16px;
 }
 
-.header__nav__link:hover{
+.header__nav-link:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 
-.header__nav__link--home {
+.header__nav-link--home {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
@@ -76,7 +78,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 6px;
-    font-size: 20px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .header__btn:hover {
@@ -120,6 +123,12 @@
     }
     .header__logo {
         font-size: 8px;
+    }
+    .header__logo p {
+        font-size: 20px;    
+    }
+    .header__nav-link {
+        font-size: 10px;
     }
 }
 </style>

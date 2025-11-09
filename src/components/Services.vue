@@ -1,7 +1,7 @@
 <template>
     <div class="services" id="services">
         <div class="service">
-            <svg class="service--image service--image1" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="service-image service-image--1" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.84375 3.20312H5.125V4.48438H3.84375V3.20312Z" fill="#4628A4"/>
                 <path d="M6.40625 3.20312H7.6875V4.48438H6.40625V3.20312Z" fill="#4628A4"/>
                 <path d="M8.96875 3.20312H10.25V4.48438H8.96875V3.20312Z" fill="#4628A4"/>
@@ -17,12 +17,12 @@
                 <path d="M6.40625 25.625H16.6562V26.9062H6.40625V25.625Z" fill="#4628A4"/>
             </svg>
             <div class="service__text">
-                <p class="service__text--name">Web Application</p>
-                <p class="service__text--description">Lorem ipsum dolor sit.</p>
+                <p class="service__text-name">Web Application</p>
+                <p class="service__text-description">Lorem ipsum dolor sit.</p>
             </div>
         </div>
         <div class="service">
-            <svg class="service--image service--image2" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="service-image service-image--2" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_2_1068)">
                     <path d="M31.7197 15.6592L17.5987 1.53809C16.6069 0.546399 15.2885 0 13.886 0H3.00003C1.34543 0 0 1.34543 0 3.00003V13.886C0 15.2886 0.546399 16.607 1.53809 17.5987L15.6592 31.7197C16.4729 32.5335 17.5994 33 18.75 33C19.9006 33 21.027 32.5335 21.8408 31.7197L31.7197 21.8408C32.5334 21.0271 32.9999 19.9006 32.9999 18.75C32.9999 17.5994 32.5335 16.4729 31.7197 15.6592ZM30.6592 20.7803L20.7803 30.6592C19.711 31.7285 17.7891 31.7285 16.7198 30.6592L2.59861 16.5381C1.89035 15.8298 1.49998 14.8879 1.49998 13.886V3.00003C1.49998 2.17315 2.17308 1.50005 2.99995 1.50005H13.886C14.888 1.50005 15.8299 1.89042 16.5381 2.59868L30.6592 16.7198C31.1939 17.2544 31.5 17.9942 31.5 18.75C31.5 19.5059 31.1939 20.2456 30.6592 20.7803Z" fill="#5FC400"/>
                     <path d="M6.00002 3C4.3455 3 3 4.34543 3 6.00003C3 7.65462 4.3455 8.99998 6.00002 8.99998C7.65455 8.99998 9.00005 7.65455 9.00005 5.99995C9.00005 4.34536 7.65462 3 6.00002 3ZM6.00002 7.5C5.17315 7.5 4.50005 6.8269 4.50005 5.99995C4.50005 5.17308 5.17315 4.49998 6.00002 4.49998C6.8269 4.49998 7.5 5.17308 7.5 5.99995C7.50007 6.8269 6.82697 7.5 6.00002 7.5Z" fill="#5FC400"/>
@@ -37,12 +37,12 @@
                 </defs>
             </svg>
             <div class="service__text">
-                <p class="service__text--name">SEO</p>
-                <p class="service__text--description">Lorem ipsum dolor sit.</p>
+                <p class="service__text-name">SEO</p>
+                <p class="service__text-description">Lorem ipsum dolor sit.</p>
             </div>
         </div>
         <div class="service">
-            <svg class="service--image service--image3" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="service-image service-image--3" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_2_1082)">
                     <path d="M15.8125 16.5C15.433 16.5 15.125 16.192 15.125 15.8125V8.9375C15.125 8.558 15.433 8.25 15.8125 8.25H17.875C19.3916 8.25 20.625 9.48337 20.625 11C20.625 12.5166 19.3916 13.75 17.875 13.75H16.5V15.8125C16.5 16.192 16.192 16.5 15.8125 16.5ZM16.5 12.375H17.875C18.634 12.375 19.25 11.7576 19.25 11C19.25 10.2424 18.634 9.625 17.875 9.625H16.5V12.375Z" fill="#00329B"/>
                     <path d="M19.9376 16.5001C19.7616 16.5001 19.5856 16.4327 19.4508 16.2993L16.7008 13.5493C16.4327 13.2812 16.4327 12.8453 16.7008 12.5772C16.969 12.3091 17.4048 12.3091 17.673 12.5772L20.423 15.3272C20.6911 15.5953 20.6911 16.0312 20.423 16.2993C20.2896 16.4327 20.1136 16.5001 19.9376 16.5001Z" fill="#00329B"/>
@@ -61,12 +61,12 @@
                 </defs>
             </svg>
             <div class="service__text">
-                <p class="service__text--name">AR/VR Solutions</p>
-                <p class="service__text--description">Lorem ipsum dolor sit.</p>
+                <p class="service__text-name">AR/VR Solutions</p>
+                <p class="service__text-description">Lorem ipsum dolor sit.</p>
             </div>
         </div>
         <div class="service">
-            <svg class="service--image service--image4" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="service-image service-image--4" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M23.9062 0.53125H10.0938C9.53039 0.531988 8.99032 0.756108 8.59196 1.15446C8.19361 1.55282 7.96949 2.09289 7.96875 2.65625V31.3438C7.96949 31.9071 8.19361 32.4472 8.59196 32.8455C8.99032 33.2439 9.53039 33.468 10.0938 33.4688H23.9062C24.4696 33.468 25.0097 33.2439 25.408 32.8455C25.8064 32.4472 26.0305 31.9071 26.0312 31.3438V2.65625C26.0305 2.09289 25.8064 1.55282 25.408 1.15446C25.0097 0.756108 24.4696 0.531988 23.9062 0.53125ZM19.4862 1.59375L19.1874 2.65625H14.7588L14.4932 1.59375H19.4862ZM24.9688 31.3438C24.9684 31.6254 24.8563 31.8955 24.6571 32.0946C24.458 32.2938 24.1879 32.4059 23.9062 32.4062H10.0938C9.81207 32.4059 9.54203 32.2938 9.34286 32.0946C9.14368 31.8955 9.03162 31.6254 9.03125 31.3438V2.65625C9.03162 2.37457 9.14368 2.10453 9.34286 1.90536C9.54203 1.70618 9.81207 1.59412 10.0938 1.59375H13.3975L13.8284 3.31633C13.8572 3.43126 13.9235 3.53329 14.0169 3.6062C14.1102 3.67912 14.2253 3.71873 14.3438 3.71875H19.5898C19.7056 3.71875 19.8182 3.68093 19.9105 3.61104C20.0028 3.54116 20.0698 3.44303 20.1012 3.3316L20.5899 1.59375H23.9062C24.1879 1.59412 24.458 1.70618 24.6571 1.90536C24.8563 2.10453 24.9684 2.37457 24.9688 2.65625V31.3438Z" fill="#BB3800"/>
                 <path d="M14.3438 30.2812H10.625C10.4841 30.2812 10.349 30.3372 10.2493 30.4368C10.1497 30.5365 10.0938 30.6716 10.0938 30.8125C10.0938 30.9534 10.1497 31.0885 10.2493 31.1882C10.349 31.2878 10.4841 31.3438 10.625 31.3438H14.3438C14.4846 31.3438 14.6198 31.2878 14.7194 31.1882C14.819 31.0885 14.875 30.9534 14.875 30.8125C14.875 30.6716 14.819 30.5365 14.7194 30.4368C14.6198 30.3372 14.4846 30.2812 14.3438 30.2812Z" fill="#BB3800"/>
                 <path d="M16.4688 30.2812H15.9375C15.7966 30.2812 15.6615 30.3372 15.5618 30.4368C15.4622 30.5365 15.4062 30.6716 15.4062 30.8125C15.4062 30.9534 15.4622 31.0885 15.5618 31.1882C15.6615 31.2878 15.7966 31.3438 15.9375 31.3438H16.4688C16.6096 31.3438 16.7448 31.2878 16.8444 31.1882C16.944 31.0885 17 30.9534 17 30.8125C17 30.6716 16.944 30.5365 16.8444 30.4368C16.7448 30.3372 16.6096 30.2812 16.4688 30.2812Z" fill="#BB3800"/>
@@ -75,8 +75,8 @@
                 <path d="M13.3975 19.9883C13.4856 20.0983 13.6138 20.1688 13.7538 20.1843C13.8939 20.1999 14.0344 20.1591 14.1444 20.0711C14.2544 19.983 14.325 19.8549 14.3405 19.7148C14.356 19.5747 14.3153 19.4342 14.2272 19.3242L12.3679 17L14.2272 14.6758C14.2708 14.6213 14.3033 14.5588 14.3227 14.4917C14.3421 14.4247 14.3482 14.3545 14.3405 14.2852C14.3328 14.2158 14.3115 14.1487 14.2779 14.0875C14.2443 14.0264 14.1989 13.9725 14.1444 13.9289C14.0899 13.8853 14.0274 13.8528 13.9604 13.8334C13.8934 13.814 13.8232 13.8079 13.7538 13.8156C13.6845 13.8233 13.6173 13.8446 13.5562 13.8782C13.4951 13.9119 13.4412 13.9572 13.3975 14.0117L11.2725 16.668C11.1971 16.7622 11.156 16.8793 11.156 17C11.156 17.1207 11.1971 17.2378 11.2725 17.332L13.3975 19.9883Z" fill="#BB3800"/>
             </svg>
             <div class="service__text">
-                <p class="service__text--name">Mobile Applications</p>
-                <p class="service__text--description">Lorem ipsum dolor sit.</p>
+                <p class="service__text-name">Mobile Applications</p>
+                <p class="service__text-description">Lorem ipsum dolor sit.</p>
             </div>
         </div>
     </div>
@@ -104,52 +104,71 @@
     width: 20%;
 }
 
-.service__text{
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.service__text--name{
+.service__text-name{
     font-weight: 500;
+    font-size: 20px;
 }
 
-.service__text--description{
+.service__text-description{
     color: #969696;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
-.service--image{
+.service-image{
     padding: 10px;
     border-radius: 15px;
     height: 40px;
     width: 40px;
 }
 
-.service--image1{
+.service-image--1{
     background-color: #EFEAFF;
 }
-.service--image2{
+.service-image--2{
     background-color: #ECFFDA;
 }
-.service--image3{
+.service-image--3{
     background-color: #DAE6FF;
 }
-.service--image4{
+.service-image--4{
     background-color: #FFE5DA;
 }
 
 @media (max-width: 850px) {
     .service{
         width: 45%;
+        position: relative;
+        left: -5%;
+    }
+    .service__text-name{
+        font-size: 15px;
+    }
+    .service__text-description{
+        font-size: 11px;
+    }
+    .services{
+        width: 100%;
+        padding: 5%;
     }
 }
 @media (max-width: 500px){
     .service__text{
         font-size: 11px;
     }
-    .service__text--description{
+    .service__text-description{
         font-size: 10px;
+    }
+    .service__text-name{
+        font-size: 12px;
+    }
+    .service__text-description{
+        font-size: 9px;
+    }
+    .service-image{
+        padding: 10px;
+        height: 30px;
+        width: 30px;
     }
 }
 </style>

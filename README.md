@@ -12,4 +12,4 @@
 
 ## Используемые библиотеки
 
-- vue.js (https://vuejs.org/)# Agency-Web-Landing-Page
+- vue.js (https://vuejs.org/) Agency-Web-Landing-Page

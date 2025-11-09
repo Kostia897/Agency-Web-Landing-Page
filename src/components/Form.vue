@@ -1,14 +1,19 @@
 <template>
-    <form class="contactForm" @submit.prevent="Submit()">
+    <form class="contactForm" @submit.prevent="submit()" :style="{
+                'after-bg': `url(${imgSrcStar})`, 
+                'before-bg': `url(${imgSrcPaiChart})`
+            }">
         <p class="contactForm__text">Lorem Ipsum is simply dummy text of the printing.</p>
         <div class="contactForm__container">
-            <input type="email" v-model="email" class="contactForm__container--input" placeholder="Enter your email">
-            <input type="submit" class="contactForm__container--btn" value="SUBSCRIBE">
+            <input type="email" v-model="email" class="contactForm__input" placeholder="Enter your email">
+            <button type="submit" class="contactForm__btn">Subscribe</button>
         </div>
     </form>
 </template>
 
 <script>
+import imgSrcStar from '../assets/star.png'
+import imgSrcPaiChart from '../assets/pai-chart.png'
 export default {
     data() {
         return {
@@ -16,7 +21,7 @@ export default {
         }
     },
     methods: {
-        Submit() {
+        submit() {
             console.log(this.email);
         }
     }
@@ -51,7 +56,7 @@ export default {
     gap: 20px;
 }
 
-.contactForm__container--input{
+.contactForm__input{
     padding: 20px 30px;
     width: 40%;
     color: #787878;
@@ -62,7 +67,7 @@ export default {
     font-size: 16px;
 }
 
-.contactForm__container--btn{
+.contactForm__btn{
     padding: 10px 40px;
     color: white;
     font-weight: 500;
@@ -73,34 +78,38 @@ export default {
     transition: all 0.3s ease;
 }
 
-.contactForm__container--btn:hover{
+.contactForm__btn:hover{
     opacity: 0.75;
 }
 
-.contactForm__container--btn:active{
+.contactForm__btn:active{
     transform: scale(0.95);    
 }
 
-.contactForm::after {
+.contactForm::after, .contactForm::before {
     content: "";
     position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.contactForm::after {
     top: -35px;
     left: 10%;
     width: 66px;
     height: 66px;
     transform: rotate(-24.8deg);
-    background: url("../assets/star.png") no-repeat center/contain;
+    background-image: var(--after-bg);
 }
 
 .contactForm::before {
-    content: "";
-    position: absolute;
     top: 50px;
     right: 20%;
     width: 54px;
     height: 54px;
     transform: rotate(-24.8deg);
-    background: url("../assets/pai chart.png") no-repeat center/contain;
+    background-image: var(--before-bg);
 }
 
 
@@ -110,7 +119,7 @@ export default {
         align-items: center;
     }
 
-    .contactForm__container--btn{
+    .contactForm__btn{
         width: min-content;
     }
 

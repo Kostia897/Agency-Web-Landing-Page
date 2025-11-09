@@ -1,31 +1,31 @@
 <template>
     <footer class="footer">
         <div class="footer__col footer__col--logo">
-            <h2 class="footer__logo">LOGO</h2>
+            <p class="footer__logo">LOGO</p>
             <p class="footer__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <p class="footer__text">@Lorem</p>
         </div>
         <div class="footer__col footer__col--links">
             <h3 class="footer__title">About us</h3>
             <ul class="footer__links">
-                <li><a href="#"><span class="highlight"><u>Lorem</u></span></a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li class="footer__links-link"><a href="#"><span class="highlight"><u>Lorem</u></span></a></li>
+                <li class="footer__links-link"><a href="#">Portfolio</a></li>
+                <li class="footer__links-link"><a href="#">Careers</a></li>
+                <li class="footer__links-link"><a href="#">Contact us</a></li>
             </ul>
         </div>
         <div class="footer__col footer__col--contact">
             <h3 class="footer__title">Contact us</h3>
             <p class="footer__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p class="footer__phone">+908 89097 890</p>
+            <p href="tel:++90889097890" class="footer__phone-link">+908 89097 890</p>
         </div>
         <div class="footer__socials">
-            <a href="#" class="footer__social">
+            <a href="#" class="footer__socials-item">
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.9985 1.9925H9.094V0.0845C8.905 0.0585 8.255 0 7.498 0C5.91851 0 4.83651 0.9935 4.83651 2.8195V4.5H3.09351V6.633H4.83651V12H6.97351V6.6335H8.646L8.9115 4.5005H6.97301V3.031C6.97351 2.4145 7.1395 1.9925 7.9985 1.9925Z" fill="black"/>
                 </svg>
             </a>
-            <a href="#" class="footer__social">
+            <a href="#" class="footer__socials-item">
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2_1232)">
                         <path d="M9.481 0H3.51898C1.57858 0 0 1.57858 0 3.51898V9.4811C0 11.4214 1.57858 13 3.51898 13H9.4811C11.4214 13 13 11.4214 13 9.4811V3.51898C13 1.57858 11.4214 0 9.481 0V0ZM12.2379 9.4811C12.2379 11.0012 11.0012 12.2379 9.481 12.2379H3.51898C1.99881 12.2379 0.762114 11.0012 0.762114 9.4811V3.51898C0.762114 1.99881 1.99881 0.762114 3.51898 0.762114H9.4811C11.0012 0.762114 12.2379 1.99881 12.2379 3.51898V9.4811Z" fill="black"/>
@@ -39,12 +39,12 @@
                     </defs>
                 </svg>
             </a>
-            <a href="#" class="footer__social">
+            <a href="#" class="footer__socials-item">
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 2.46919C12.5166 2.68125 12.0014 2.82181 11.4644 2.89006C12.0169 2.56019 12.4386 2.04181 12.6368 1.417C12.1217 1.72412 11.5529 1.94106 10.9468 2.06213C10.4577 1.54131 9.76056 1.21875 9.00006 1.21875C7.52456 1.21875 6.33669 2.41638 6.33669 3.88456C6.33669 4.09581 6.35456 4.29894 6.39844 4.49231C4.18275 4.38425 2.22219 3.32231 0.905125 1.70463C0.675187 2.10356 0.540313 2.56019 0.540313 3.05175C0.540313 3.97475 1.01562 4.79294 1.72413 5.26662C1.29594 5.2585 0.875875 5.13419 0.52 4.93837C0.52 4.9465 0.52 4.95706 0.52 4.96762C0.52 6.26275 1.44381 7.3385 2.65525 7.58631C2.43831 7.64563 2.20187 7.67406 1.9565 7.67406C1.78587 7.67406 1.61362 7.66431 1.45194 7.62856C1.79725 8.684 2.77713 9.45994 3.94225 9.48512C3.0355 10.1944 1.88419 10.6218 0.637812 10.6218C0.41925 10.6218 0.209625 10.6121 0 10.5852C1.18056 11.3466 2.57969 11.7812 4.0885 11.7812C8.99275 11.7812 11.674 7.71875 11.674 4.19737C11.674 4.07956 11.6699 3.96581 11.6643 3.85287C12.1932 3.4775 12.6376 3.00869 13 2.46919Z" fill="black"/>
                 </svg>
             </a>
-            <a href="#" class="footer__social">
+            <a href="#" class="footer__socials-item">
                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2_1246)">
                         <path d="M10.9973 11V10.9996H11.0001V6.96531C11.0001 4.99173 10.5752 3.47144 8.26795 3.47144C7.15879 3.47144 6.41445 4.0801 6.11058 4.65714H6.07849V3.65569H3.89087V10.9996H6.16879V7.36314C6.16879 6.40569 6.35029 5.47985 7.536 5.47985C8.70429 5.47985 8.7217 6.57252 8.7217 7.42456V11H10.9973Z" fill="black"/>
@@ -135,11 +135,19 @@
     text-decoration: underline;
 }
 
-.footer__phone {
+.footer__phone-link {
     font-weight: 400;
     color: #515151;
+    text-decoration: none;
+    transition: color 0.3s ease;
     font-size: 13px;
     margin-top: 5px;
+}
+
+.footer__phone-link:hover {
+    color: #1090CB;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .footer__socials {
@@ -149,7 +157,7 @@
     align-items: center;
 }
 
-.footer__social {
+.footer__socials-item {
     width: 34px;
     height: 34px;
     background: #fff;
@@ -162,11 +170,11 @@
     transition: all 0.3s ease;
 }
 
-.footer__social:hover {
+.footer__socials-item:hover {
     background: #1090CB;
 }
 
-.footer__social:hover svg path {
+.footer__socials-item:hover svg path {
     fill: #fff;
 }
 
@@ -194,6 +202,36 @@
         width: 100%;
         padding-left: 3%;
         justify-content: center;
+    }
+    .footer__col--contact{
+        width: 40%;
+    }
+}
+@media (max-width: 500px) {
+    .footer{
+        gap: 30px;
+    }
+    .footer__col--logo{
+        width: 60%;
+    }
+    .footer__col--links{
+        width: 25%;
+        align-items: flex-end;
+        white-space: nowrap;
+    }
+    .footer__col--links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .footer__socials{
+        width: 40%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .footer__socials-item{
+        width: 25px;
+        height: 25px;
     }
     .footer__col--contact{
         width: 40%;
