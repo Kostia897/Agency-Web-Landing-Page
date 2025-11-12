@@ -1,23 +1,25 @@
 <template>
-    <form class="contactForm" @submit.prevent="submit()" :style="{
-                'after-bg': `url(${imgSrcStar})`, 
-                'before-bg': `url(${imgSrcPaiChart})`
+    <form class="form" @submit.prevent="submit()" :style="{
+                '--after-bg': `url(${imgSrcStar})`, 
+                '--before-bg': `url(${imgSrcPaiChart})`
             }">
-        <p class="contactForm__text">Lorem Ipsum is simply dummy text of the printing.</p>
-        <div class="contactForm__container">
-            <input type="email" v-model="email" class="contactForm__input" placeholder="Enter your email">
-            <button type="submit" class="contactForm__btn">Subscribe</button>
+        <p class="form__text">Lorem Ipsum is simply dummy text of the printing.</p>
+        <div class="form__container">
+            <input type="email" v-model="email" class="form__input" placeholder="Enter your email">
+            <button type="submit" class="form__btn">Subscribe</button>
         </div>
     </form>
 </template>
 
 <script>
-import imgSrcStar from '../assets/star.png'
-import imgSrcPaiChart from '../assets/pai-chart.png'
+import imgSrcStar from '@/assets/star.png'
+import imgSrcPaiChart from '@/assets/pai-chart.png'
 export default {
     data() {
         return {
-            email: ''
+            email: '',
+            imgSrcStar,
+            imgSrcPaiChart
         }
     },
     methods: {
@@ -29,7 +31,7 @@ export default {
 </script>
 
 <style>
-.contactForm{
+.form{
     position: relative;
     width: 100%;
     background-color: #E8F4FA;
@@ -41,7 +43,7 @@ export default {
     gap: 60px;
 }
 
-.contactForm__text{
+.form__text{
     font-weight: 600;
     font-size: 30px;
     line-height: 170%;
@@ -49,14 +51,14 @@ export default {
     text-align: center;
 }
 
-.contactForm__container{
+.form__container{
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 20px;
 }
 
-.contactForm__input{
+.form__input{
     padding: 20px 30px;
     width: 40%;
     color: #787878;
@@ -67,7 +69,7 @@ export default {
     font-size: 16px;
 }
 
-.contactForm__btn{
+.form__btn{
     padding: 10px 40px;
     color: white;
     font-weight: 500;
@@ -78,15 +80,15 @@ export default {
     transition: all 0.3s ease;
 }
 
-.contactForm__btn:hover{
+.form__btn:hover{
     opacity: 0.75;
 }
 
-.contactForm__btn:active{
+.form__btn:active{
     transform: scale(0.95);    
 }
 
-.contactForm::after, .contactForm::before {
+.form::after, .form::before {
     content: "";
     position: absolute;
     background-repeat: no-repeat;
@@ -94,7 +96,7 @@ export default {
     background-size: contain;
 }
 
-.contactForm::after {
+.form::after {
     top: -35px;
     left: 10%;
     width: 66px;
@@ -103,7 +105,7 @@ export default {
     background-image: var(--after-bg);
 }
 
-.contactForm::before {
+.form::before {
     top: 50px;
     right: 20%;
     width: 54px;
@@ -114,16 +116,16 @@ export default {
 
 
 @media (max-width: 500px) {
-    .contactForm__container{
+    .form__container{
         flex-direction: column;
         align-items: center;
     }
 
-    .contactForm__btn{
+    .form__btn{
         width: min-content;
     }
 
-    .contactForm__text{
+    .form__text{
         font-size: 20px;
         width: 70%;
     }

@@ -17,7 +17,7 @@
         <div class="footer__col footer__col--contact">
             <h3 class="footer__title">Contact us</h3>
             <p class="footer__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p href="tel:++90889097890" class="footer__phone-link">+908 89097 890</p>
+            <a href="tel:++90889097890" class="footer__phone-link">+908 89097 890</a>
         </div>
         <div class="footer__socials">
             <a href="#" class="footer__socials-item">
@@ -65,10 +65,6 @@
     </div>
     </footer>
 </template>
-
-<script>
-
-</script>
 
 <style>
 .footer {

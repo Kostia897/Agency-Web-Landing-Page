@@ -6,7 +6,7 @@
         <div class="portfolio__contentSection portfolio__contentSection--1">
             <div class="portfolio__contentSection__text">
                 <div class="portfolio__contentSection__text__container">
-                    <Icon />
+                    <Icon class="portfolio__contentSection__text__container--img1"/>
                     <div class="portfolio__contentSection__text__container__container2">
                         <p class="portfolio__contentSection__text__container-title">Lorem Ipsum is simply dummy text</p>
                         <p class="portfolio__contentSection__text__container-subtitle">Lorem Ipsum is simply dummy text</p>
@@ -21,7 +21,7 @@
             <img class="portfolio__contentSection-img" :src="imgSrcImg2" alt="img2.png">
             <div class="portfolio__contentSection__text">
                 <div class="portfolio__contentSection__text__container">
-                    <Icon />
+                    <Icon class="portfolio__contentSection__text__container--img2"/>
                     <div class="portfolio__contentSection__text__container__container2">
                         <p class="portfolio__contentSection__text__container-title">Lorem Ipsum is simply dummy text</p>
                         <p class="portfolio__contentSection__text__container-subtitle">Lorem Ipsum is simply dummy text</p>
@@ -34,7 +34,7 @@
         <div class="portfolio__contentSection portfolio__contentSection--3">
             <div class="portfolio__contentSection__text portfolio__contentSection__text3">
                 <div class="portfolio__contentSection__text__container">
-                    <Icon />
+                    <Icon class="portfolio__contentSection__text__container--img3"/>
                     <div class="portfolio__contentSection__text__container__container2">
                         <p class="portfolio__contentSection__text__container-title">Lorem Ipsum is simply dummy text</p>
                         <p class="portfolio__contentSection__text__container-subtitle">Lorem Ipsum is simply dummy text</p>
@@ -67,14 +67,14 @@
 </template>
 
 <script setup>
-import imgSrcImg1 from '../assets/img1.jpg'
-import imgSrcImg2 from '../assets/img2.png'
-import imgSrcImg3 from '../assets/img3.png'
-import imgSrcBeneoshop from '../assets/beneoshop.png'
-import imgSrcCaspio from '../assets/caspio.png'
-import imgSrcHypergrid from '../assets/hypergrid.png'
-import imgSrcLeotrippi from '../assets/leotrippi.png'
-import Icon from '../components/Icon.vue';
+import imgSrcImg1 from '@/assets/img1.jpg'
+import imgSrcImg2 from '@/assets/img2.png'
+import imgSrcImg3 from '@/assets/img3.png'
+import imgSrcBeneoshop from '@/assets/beneoshop.png'
+import imgSrcCaspio from '@/assets/caspio.png'
+import imgSrcHypergrid from '@/assets/hypergrid.png'
+import imgSrcLeotrippi from '@/assets/leotrippi.png'
+import Icon from '@/components/Icon.vue';
 </script>
 
 <style>
@@ -156,6 +156,7 @@ import Icon from '../components/Icon.vue';
     border-radius: 100%;
     width: 30px;
     height: 30px;
+    flex-shrink: 0;
 }
 
 .portfolio__contentSection__text__container--img1{

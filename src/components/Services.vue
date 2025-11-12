@@ -82,10 +82,6 @@
     </div>
 </template>
 
-<script>
-
-</script>
-
 <style>
 .services{
     width: 80%;

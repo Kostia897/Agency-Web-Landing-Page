@@ -15,10 +15,6 @@
     </header>
 </template>
 
-<script>
-
-</script>
-
 <style>
 .header {
     display: flex;

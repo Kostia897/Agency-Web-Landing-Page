@@ -35,10 +35,10 @@
 </template>
 
 <script setup>
-import imgSrcSucclent from '../assets/succlent-angle.png'
-import imgSrcPlant from '../assets/big-plant.png'
-import imgSrcCuboid from '../assets/cuboid.png'
-import imgSrcBill from '../assets/bill-sitting-using-laptop.png'
+import imgSrcSucclent from '@/assets/succlent-angle.png'
+import imgSrcPlant from '@/assets/big-plant.png'
+import imgSrcCuboid from '@/assets/cuboid.png'
+import imgSrcBill from '@/assets/bill-sitting-using-laptop.png'
 </script>
 
 <style>
